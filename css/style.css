@@ -1,0 +1,44 @@
+/* import css */
+@import url("./header.css");
+@import url("./footer.css");
+@import url("./footer.css");
+@import url("./fonts.css");
+@import url("./loaders.css");
+@import url("./style.min.css");
+/* import css */
+
+/* unversal css */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* unversal css */
+
+/* root css style */
+:root {
+  --inter: "Inter";
+  --popins: "Poppins";
+}
+/* root css style */
+
+/* html body css */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  width: 100%;
+}
+/* html body css */
+
+/* CONTAINER */
+.site__container {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* CONTAINER */
