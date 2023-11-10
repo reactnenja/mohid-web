@@ -27,3 +27,11 @@ const loadersDuration = 12000; // 12s
 setTimeout(() => {
   loaders.classList.add("loading-none");
 }, loadersDuration);
+
+
+const hamburger = document.querySelector(".hamburger");
+const navLink = document.querySelector(".navbar-responsive");
+
+hamburger.addEventListener("click", () => {
+  navLink.classList.toggle("hide");
+});

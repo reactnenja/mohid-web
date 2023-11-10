@@ -10,12 +10,16 @@
 .navbar-shrink {
   padding: 20px 0;
 }
+/* 
+.navbar-responsive {
+  display: none;
+} */
 
 .site__navbar {
   width: 100%;
   position: fixed;
   top: 0;
-  padding: 18px 0px;
+  padding: 3px 0px;
   background-color: rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(30px);
 }
@@ -24,50 +28,45 @@
   justify-content: flex-start;
   align-items: center;
 }
-.site__logo-link {
-  margin-right: 217px;
+.site__logo-link > .site__logo {
+  width: 130px;
 }
 .site__nav-list {
+  width: 48%;
+  height: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  margin-right: 158px;
-}
-
-.site__nav-list {
   list-style: none;
+  text-align: center;
+  width: 90%;
+}
+.site__nav-items {
+  text-align: center;
 }
 .site__nav-items:not(:last-child) {
   margin-right: 27px;
 }
-
 .site__nav-link {
-  color: #8b8e99;
+  padding-bottom: 30px;
   font-family: var(--popins);
   font-size: 16px;
   font-weight: 500;
+  color: #8b8e99;
+  text-align: center;
   text-decoration: none;
   text-transform: capitalize;
-  position: relative;
-  padding-bottom: 30px;
 }
 .site__nav-link:hover {
   color: #ffffff;
-  transition: all 1.9s;
-  transform: all 1s;
-}
-.site__nav-link::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
   width: 100%;
-  height: 3px;
 }
-.site__nav-link:hover::after {
-  content: "";
-  background: #3858d6;
-  border-radius: 12px;
+/* site nav link end  */
+/* site nav shops */
+.site__nav-shops {
+  text-align: center;
+  width: 160px;
+  position: relative;
 }
 .site__nav-shops > .btn-site > i {
   color: white;
@@ -95,9 +94,6 @@
 }
 .btn-site:not(:last-child) {
   margin-right: 16px;
-}
-.site__shops-shop {
-  position: relative;
 }
 .cricle-1 {
   width: 15px;
