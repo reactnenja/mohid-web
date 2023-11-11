@@ -14,10 +14,12 @@
 .navbar-responsive {
   display: none;
 } */
-
+.navbar-responsive {
+}
 .site__navbar {
   width: 100%;
   position: fixed;
+  z-index: 4;
   top: 0;
   padding: 3px 0px;
   background-color: rgba(0, 0, 0, 0.7);
@@ -66,9 +68,12 @@
 .site__nav-shops {
   text-align: center;
   width: 160px;
+}
+.site__shops-shop {
   position: relative;
 }
-.site__nav-shops > .btn-site > i {
+.site__shops-shop > .btn-site,
+i {
   color: white;
   width: 22px;
   height: 23px;

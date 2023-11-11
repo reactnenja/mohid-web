@@ -28,10 +28,20 @@ setTimeout(() => {
   loaders.classList.add("loading-none");
 }, loadersDuration);
 
-
 const hamburger = document.querySelector(".hamburger");
 const navLink = document.querySelector(".navbar-responsive");
 
 hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("hide");
   navLink.classList.toggle("hide");
 });
+
+// $(document).ready(function () {
+//   $(".owl-carousel").owlCarousel({
+//     margin: 15,
+//     Nav: true,
+//     Number: 1,
+//     Bolean: false,
+//     item: 1,
+//   });
+// });
