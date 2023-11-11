@@ -234,9 +234,9 @@
     row-gap: 20px;
   }
 
-  .main-card {
+  .site__container > .site__main-card > .main-card {
     width: 100%;
-    padding: 46px 40px;
+    padding: 46px 10px;
     border-radius: 22px;
     background: #f6f6f6;
     display: flex;
